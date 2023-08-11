@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main
+{
+    background-color: rgb(154, 243, 154);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#panel
+{
+width: 80%;
+height: 80%;
+background-color: white;
+border-radius:10px;
+overflow: hidden;
+}
+#ptop
+{
+    background-color: rgb(5, 116, 5);
+    height:100px;
+    width:100%;
+    padding:0 30%;
+    /* overflow: hidde
+    n; Check meaning of this property */
+    display: flex;
+    color:#fff;
+    
+    align-items: center; /*Does on cross-axis(if default is horizontal*/
+    /* justify-content: space-between; Does on lateral axis (If default is horizontal)
+    
+    */
+    justify-content: space-between;
+}
+.box
+{
+    padding:10px 20px;
+    background-color: #fff;
+    border-radius:5px;
+    width:100%;
+
+    color:black;
+   font-weight: 600;
+   display: flex;
+   justify-content: center;
+}
+.elem
+{
+    display: flex;
+    width:10%;
+   align-items: center;
+   gap:8px;
+   
+}
+.pbottom
+{
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: black;
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.bubble
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3%;
+    height:8% ;
+    background-color: rgb(31, 223, 31);
+    border-radius:50%;
+}
+.bubble:hover
+{
+    background-color: rgb(5, 110, 5);
+    cursor: pointer;
+}
+
+
